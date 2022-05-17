@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "5.3.0",
     "codelyzer": "^6.0.0",
     "eslint": "^8.1.0",
-    "@igniteui/angular-schematics": "~13.1.911",
+    "@igniteui/angular-schematics": "~13.1.912",
     "jasmine-core": "~4.0.0",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.3.0",
