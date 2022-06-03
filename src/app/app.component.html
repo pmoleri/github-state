@@ -65,24 +65,24 @@
 <div class="row-layout group_2">
   <igx-nav-drawer [pin]="true" [pinThreshold]="1024" width="320px" class="nav-drawer">
     <ng-template igxDrawerMini>
-      <div igxDrawerItem routerLink="/my-tasks" class="nav-drawer-item">
+      <div igxDrawerItem igxRipple routerLink="/my-tasks">
         <igx-icon class="icon">
           assignment_turned_in
         </igx-icon>
       </div>
-      <div igxDrawerItem class="nav-drawer-item">
+      <div igxDrawerItem igxRipple>
         <igx-icon class="icon">
           vertical_split
         </igx-icon>
       </div>
-      <div igxDrawerItem class="nav-drawer-item">
+      <div igxDrawerItem igxRipple>
         <igx-icon class="icon">
           folder
         </igx-icon>
       </div>
     </ng-template>
     <ng-template igxDrawer>
-      <div igxDrawerItem class="nav-drawer-item">
+      <div igxDrawerItem igxRipple>
         <igx-icon class="icon">
           account_circle
         </igx-icon>
@@ -91,7 +91,6 @@
     </ng-template>
   </igx-nav-drawer>
   <div class="view-container">
-    <router-outlet></router-outlet>
     <router-outlet></router-outlet>
   </div>
 </div>
